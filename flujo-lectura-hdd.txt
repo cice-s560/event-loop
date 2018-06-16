@@ -1,0 +1,6 @@
+1. Llamamos a readFile
+2. NodeJS pide "stats" (requiere acceso al HDD)
+3. HDD ha sido accedido y stats devueltas
+4. NodeJS pide leerlo
+5. HDD devuelve el stream del archivo (requiere acceso al HDD)
+6. NodeJS devuelve el archivo del contenido
